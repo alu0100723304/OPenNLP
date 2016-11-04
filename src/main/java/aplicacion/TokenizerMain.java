@@ -2,6 +2,7 @@
 package aplicacion;
 
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
@@ -22,6 +23,10 @@ public class TokenizerMain
 		
 		FileReader F = new FileReader("Archtxt/Texto01.txt");
 		LeerFichero LF = new LeerFichero(F);
+		
+		final File folder = new File("Archtxt");
+		LeerDirectorio LD = new LeerDirectorio(folder);
+		LD.listFilesForFolder(folder);
 		
 		// the model we trained
 		InputStream modelIn = new FileInputStream( "models/en-token.model" );
