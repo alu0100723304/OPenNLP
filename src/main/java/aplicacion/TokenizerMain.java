@@ -3,6 +3,7 @@ package aplicacion;
 
 
 import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -18,7 +19,9 @@ public class TokenizerMain
 		
 		// the provided model
 		// InputStream modelIn = new FileInputStream( "models/en-token.bin" );
-
+		
+		FileReader F = new FileReader("Archtxt/Texto01.txt");
+		LeerFichero LF = new LeerFichero(F);
 		
 		// the model we trained
 		InputStream modelIn = new FileInputStream( "models/en-token.model" );
@@ -30,10 +33,7 @@ public class TokenizerMain
 			Tokenizer tokenizer = new TokenizerME(model);
 			
 				/* note what happens with the "three depending on which model you use */
-			String[] tokens = tokenizer.tokenize
-					(  "A ranger journeying with Oglethorpe, founder of the Georgia Colony, " 
-							+ " mentions \"three Mounts raised by the Indians over three of their Great Kings" 
-							+ " who were killed in the Wars.\"" );
+			String[] tokens = tokenizer.tokenize(LF.getContenido());
 			
 			for( String token : tokens )
 			{
