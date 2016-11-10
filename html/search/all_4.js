@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['leerdirectorio',['LeerDirectorio',['../classaplicacion_1_1_leer_directorio.html',1,'aplicacion']]],
-  ['leerdirectorio',['LeerDirectorio',['../classaplicacion_1_1_leer_directorio.html#a02169b5b69017ed66a63b94f9bd7a2ad',1,'aplicacion::LeerDirectorio']]],
-  ['leerdirectorio_2ejava',['LeerDirectorio.java',['../_leer_directorio_8java.html',1,'']]],
-  ['leerfichero',['LeerFichero',['../classaplicacion_1_1_leer_fichero.html',1,'aplicacion']]],
-  ['leerfichero',['LeerFichero',['../classaplicacion_1_1_leer_fichero.html#a6ecbade55a18cd4e748dfd664d7ede6b',1,'aplicacion::LeerFichero']]],
-  ['leerfichero_2ejava',['LeerFichero.java',['../_leer_fichero_8java.html',1,'']]],
-  ['listfilesforfolder',['listFilesForFolder',['../classaplicacion_1_1_leer_directorio.html#a59321b6374b5ef72ac862f6b283399c9',1,'aplicacion::LeerDirectorio']]]
+  ['getcontenido',['getContenido',['../classaplicacion_1_1_leer_fichero.html#a1bbd72cd2d98a81cc7ebabae57465e7f',1,'aplicacion::LeerFichero']]],
+  ['getfichero',['getFichero',['../classaplicacion_1_1_leer_fichero.html#ac85026646b27dee1b9dd2d28eaa4ae59',1,'aplicacion::LeerFichero']]],
+  ['getfolder_5f',['getFolder_',['../classaplicacion_1_1_leer_directorio.html#aa9db3677912609ea74f9b21c654c6ad8',1,'aplicacion::LeerDirectorio']]],
+  ['getlector',['getLector',['../classaplicacion_1_1_leer_fichero.html#ae9b6c34feb9e518c222eb23937a81716',1,'aplicacion::LeerFichero']]]
 ];
