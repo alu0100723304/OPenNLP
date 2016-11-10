@@ -12,7 +12,11 @@ import opennlp.tools.tokenize.Tokenizer;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 
-
+/**
+ * Cuerpo Principal.
+ * @author Joel Pérez Ramos
+ *
+ */
 public class TokenizerMain
 {
 	public static void main( String[] args ) throws Exception
